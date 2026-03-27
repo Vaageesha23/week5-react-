@@ -1,0 +1,49 @@
+.card {
+  width: 360px;
+  padding: 30px;
+  border-radius: 16px;
+  background: #1e293b;
+  border: 2px solid #facc15;
+  box-shadow: 0 0 20px rgba(250, 204, 21, 0.2);
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #facc15;
+  background: #0f172a;
+  color: #facc15;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: #facc15;
+  color: black;
+}
+
+.disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.switch {
+  margin-top: 15px;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: underline;
+}

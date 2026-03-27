@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: radial-gradient(circle at top, #1e293b, #0f172a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #facc15;
+}
+
